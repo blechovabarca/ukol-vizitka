@@ -2,12 +2,84 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+
+
+.background {
+    background-color: #b2bec3;
+    padding-bottom: 150px;
+    padding-top: 150px;
+   
+}
+
+.card {
+    background-color: white;
+    width: 550px;
+    margin: auto;
+    font-family: "Nunito";
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 30px;
+
+}
+
+h1 {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: "Nunito";
+    color: #d63031;
+    font-size: 36px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    left:475px;
+    top: -50px;
+}
+
+.text {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
 červená na hlavní nadpis:  #d63031
 
-tlačítko Twitter:					 #1da1f2
+tlačítko Twitter:			#1da1f2
 tlačítko Twitter aktivní:	 #0b7bc1
 
 tlačítko Facebook:				 #3b5998

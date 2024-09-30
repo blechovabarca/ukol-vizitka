@@ -3,14 +3,14 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 
-
+/*šedé plocha za vizitkou*/
 .background {
     background-color: #b2bec3;
     padding-bottom: 150px;
     padding-top: 150px;
-   
 }
 
+/*tělo vizitky*/
 .card {
     background-color: white;
     width: 550px;
@@ -19,59 +19,81 @@ html { box-sizing: border-box; }
     border-radius: 10px;
     position: relative;
     padding-bottom: 30px;
-
 }
 
+/*hlavní nadpis*/
 h1 {
     padding-top: 30px;
     padding-left: 30px;
     font-family: "Nunito";
     color: #d63031;
     font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 
+/*obrázek*/
 img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 3px solid white;
     position: absolute;
-    left:475px;
-    top: -50px;
+    right: -75px;
+    top: -75px;
 }
 
+/*text kromě nadpisu*/
 .text {
     padding-left: 30px;
     padding-right: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
 }
 
+/*odkazy*/
 a {
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
-
-
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
+/*tlačítko Twitter*/
 .twitter {
     background-color: #1da1f2;
     color: white;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 5px;
-    
+    margin-top: 30px;
+    box-shadow: 1px 1px #46acec;
 }
 
+/*tlačítko Facebook*/
 .facebook {
     background-color: #3b5998;
     color: white;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px #5a75ae;
+}
 
+/*tlačítko Facebook - aktivní*/
+.facebook:active {
+    background-color: #2b406e;
+}
+
+
+/*tlačítko Twitter - aktivní*/
+.twitter:active {
+    background-color: #0b7bc1;
 }
 
 /*
@@ -82,7 +104,7 @@ BARVY:
 tlačítko Twitter:			#1da1f2
 tlačítko Twitter aktivní:	 #0b7bc1
 
-tlačítko Facebook:				 #3b5998
+tlačítko Facebook:		#3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
